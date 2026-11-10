@@ -19,7 +19,7 @@ jobs:
           access_token: ${{ github.token }}
 
       - name: Checkout Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@main
         
       - name: Set Up JDK
         uses: actions/setup-java@v5
